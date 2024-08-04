@@ -4,3 +4,7 @@ server:
 spring:
  application:
    name: dev-server-config
+ datasource:
+   url: jdbc:postgresql://localhost:5432/postgres
+   username: postgres
+   password: postgres
